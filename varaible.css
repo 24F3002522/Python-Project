@@ -1,0 +1,57 @@
+/*
+  Design tokens.
+  Colour carries meaning here, not just decoration:
+    moss  -> poems
+    rose  -> letters
+    clay  -> shared accent (links, focus, buttons)
+*/
+
+:root {
+  /* Base neutrals — warm paper, not pure white or black */
+  --color-ink: #3a2b22;
+  --color-ink-soft: #55452f;
+  --color-paper: #f7f0e6;
+  --color-paper-dim: #efe3d1;
+  --color-muted: #7d6a56;
+
+  /* Poems */
+  --color-moss: #6e7d57;
+  --color-moss-tint: #dee3ce;
+  --color-moss-deep: #4c5a3a;
+
+  /* Letters */
+  --color-rose: #bd897f;
+  --color-rose-tint: #ecdad4;
+  --color-rose-deep: #97584d;
+
+  /* Shared accent */
+  --color-clay: #96633e;
+  --color-clay-deep: #7a4f30;
+
+  --color-border: #e3d5c1;
+
+  /* Type */
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Lora', Georgia, serif;
+
+  /* Spacing scale */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1.25rem;
+  --space-md: 2rem;
+  --space-lg: 3.5rem;
+  --space-xl: 5.5rem;
+  --space-2xl: 8rem;
+
+  /* Layout */
+  --measure-poem: 34rem;
+  --measure-prose: 40rem;
+  --width-wide: 68rem;
+
+  /* Motion */
+  --ease-quiet: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration-slow: 900ms;
+  --duration-medium: 450ms;
+  --duration-fast: 200ms;
+}
